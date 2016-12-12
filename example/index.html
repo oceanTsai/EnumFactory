@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>EnumFactory Example</title>
+	<script type="text/javascript" src='./enumFactory.js'></script>
+</head>
+<body>
+	<script type="text/javascript">
+		console.log(enumFactory_oc)
+
+		const HEADER_ENUM = enumFactory_oc.prefixCreate(['NORMAL', 'ICON','SWITCH'], 'COMMON_HEADER_ENUM')
+
+		console.log('HEADER_ENUM', HEADER_ENUM)
+
+	</script>
+</body>
+</html>
